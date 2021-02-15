@@ -9,7 +9,8 @@
 
 body{
     background:linear-gradient(#dedbd6, #d8d6d1);
-    width:1900px;
+    
+    height:1820px;
 }
 .container{
     margin: 0 auto;
