@@ -1,0 +1,236 @@
+
+main{
+    height:1120px;
+}
+.main_child{
+    background: #fff;
+    padding-left:30px;
+    padding-top:30px;
+    height:1120px;
+}
+.calendars{
+    display:flex;
+}
+.calendar{
+    width:33%;
+}
+
+.calendar_item{
+    width:280px;
+    display:flex;
+}
+.lorem_1{
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    font-weight: bold;
+    color:#2e2c2d;
+    width:210px;
+    margin-left:30px;
+}
+.lorem_2{
+    margin-top:30px;
+    font-family: 'Arial';
+    font-size: 12px;
+    color:#a6a6a6;
+    line-height: 20px;
+}
+
+.articles{
+    display:flex;
+  
+}
+
+.article{
+    width:190px;
+    margin-top:30px;
+    margin-right:45px;
+}
+
+.text_1{
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    font-weight: normal;
+    color:#2e2c2d;
+}
+
+.text_2{
+    margin-top:30px;
+    font-family: 'Arial';
+    font-size: 12px;
+    color:#a6a6a6;
+    line-height: 20px;
+}
+.article button{
+    width:160px;
+    border-radius: 15px;
+    border:none;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.article button a{
+    padding:7px 42px;
+    display:inline-block;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    color:#fff;
+    background: linear-gradient(#f5935f, #e05812);
+    border-radius: 30px;
+}
+
+.article .button_2{
+    padding:7px 42px;
+    display:inline-block;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    color:#fff;
+    background: linear-gradient(#898788, #4c474b);
+    border-radius: 30px;
+}
+
+section{
+    display:flex;
+    height:125px;
+    width:900px;
+    margin-top:40px;
+    justify-content: space-between;
+    background:linear-gradient(#f7f5ee, #fbf9f3);
+}
+
+section .dolor{
+    margin-left:25px;
+    margin-top:40px;
+    width:510px;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: normal;
+    color:#706d6a;
+}
+
+section .want_button{
+    width:260px;
+    height:55px;
+    margin-top:40px;
+    margin-right:20px;
+    border-radius: 25px;
+    border:1px solid #df733b;
+    box-shadow: 0px 0px 0px 6px  #f2ebdf ;
+}
+
+section .want_button .want{
+    padding:16px 30px;
+    display:inline-block;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    background:linear-gradient(#f98d55, #de5c19);
+    border-radius: 25px;
+    color:#fff;
+}
+
+.comments{
+    display:flex;
+    margin-top:30px;
+    margin-right:80px;
+    justify-content: none;
+}
+
+.comment_1{
+    width:240px;
+    margin-right:60px;
+}
+.comment_2{
+    margin-top:15px;
+}
+.comment_1 p{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    color:#343233;
+    
+    /*  */
+}
+
+.user_comment{
+    display:flex;
+    margin-top:25px;
+}
+
+.img{
+    width:80px;
+    height:70px;
+    border:none;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    text-align: center;
+    padding-top:10px;
+}
+.user_comment p{
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    font-weight: normal;
+    margin-left:35px;
+}
+.user_comment p span{
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 10px;
+    color:#f55909;
+}
+
+.comment_1 .info{
+    font-family: 'Arial';
+    font-size: 12px;
+    color:#bfbfbf;
+    font-weight: normal;
+    line-height: 15px;
+    margin-top:35px;
+}
+
+.users{
+    width:240px;
+    margin-top:0px;
+}
+.users p{
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    font-weight: bold;
+    color:#343233;
+}
+
+.sector{
+    display:flex;
+}
+.red{
+    width:50px;
+    height:50px;
+    background-color: #ff0000;
+    border-radius: 4px;
+    margin-top:30px;
+}
+
+.sector p{
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    font-weight: bold;
+    color:#343233;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.sector p span{
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 12px;
+    color: #adadad;
+}
+.sector .eric{
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 10px;
+    color: #f55909;
+}

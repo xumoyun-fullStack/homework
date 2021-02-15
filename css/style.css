@@ -1,0 +1,18 @@
+@import './header.css';
+@import '../fonts/style.css';
+@import './main.css';
+@import './footer.css';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(#dedbd6, #d8d6d1);
+    width:1820px;
+}
+.container{
+    margin: 0 auto;
+    width:970px;
+}
+
